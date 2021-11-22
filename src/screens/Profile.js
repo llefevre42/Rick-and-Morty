@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { Text, View, Image, ImageBackground, Dimensions, FlatList, StyleSheet, SafeAreaView, TouchableHighlight, TouchableOpacity } from 'react-native';
 import GlobalStyle from "../GlobalStyle"
+import {DEV_MODE} from '../env.json'
 const styles = {
     ...GlobalStyle, ...{
      
@@ -43,25 +44,26 @@ const { width } = Dimensions.get("window");
 
 export default function Profile({ navigation, route }) {
     const { id } = route.params;
-    console.log(id)
+    console.log("perso id :",perso.id)
+
     const { loading, error, data, fetchMore } = useQuery(FETCH_ALL_PRODUCT, {
         variables: { id: id },
     });
     if (loading) {
-        console.log("loading...")
+        if(DEV_MODE)
+            console.log("loading...")
         return (null)
     }
     if (error) {
-        console.log("error...")
+        if(DEV_MODE)
+            console.log("error...")
         return (null)
     }
-    console.log(data.character)
 
     let perso = []
     if (data && data.character && data.character)
         perso = data.character
 
-    console.log(perso.id)
     return (
         <SafeAreaView style={{ backgroundColor: "black", flex: 1 }}>
             <TouchableOpacity onPress={() => navigation.goBack(null)}>

@@ -1,17 +1,14 @@
 import React, { useState, useRef } from 'react';
 import { Text, View, Image, ImageBackground, Dimensions, FlatList, StyleSheet, SafeAreaView, TouchableHighlight, TouchableOpacity } from 'react-native';
 import GlobalStyle from "../GlobalStyle"
+import {useQuery, gql } from "@apollo/client";
+import {DEV_MODE} from '../env.json'
+
 const styles = {
   ...GlobalStyle, ...{
  
   }
 };
-
-import {
-  useQuery,
-  gql
-} from "@apollo/client";
-
 const { height } = Dimensions.get("window");
 const { width } = Dimensions.get("window");
 
@@ -44,22 +41,21 @@ export default function Home({navigation}) {
     variables: { page: 0 },
   });
   if (loading) {
-    console.log("loading...")
+    if(DEV_MODE)
+      console.log("loading...")
     return (null)
   }
   if (error) {
-    console.log("error...")
+    if(DEV_MODE)
+      console.log("error...")
     return (null)
   }
-  console.log(data.characters.info.next)
 
   let perso = []
   if (data && data.characters && data.characters.results)
     perso = data.characters.results
 
   const changeFilter = (genders, statuss) => {
-    console.log(statuss)
-    console.log(genders)
     return fetchMore({
       variables: {
         page: 0,
@@ -75,8 +71,8 @@ export default function Home({navigation}) {
   }
 
   const handleOnEndReached = () => {
-    console.log(status)
-    console.log(gender)
+    if(DEV_MODE)
+      console.log("status :", status, " gender :" , gender)
     return fetchMore({
       variables: {
         page: data.characters.info.next,
@@ -106,9 +102,6 @@ export default function Home({navigation}) {
     changeFilter(gender, statuss)
     flatListRef.current.scrollToOffset({ animated: true, offset: 0 })
   }
-
-  console.log("teste :", gender)
-  console.log(status)
 
   return (
     <SafeAreaView style={{ backgroundColor: "black", flex: 1 }}>

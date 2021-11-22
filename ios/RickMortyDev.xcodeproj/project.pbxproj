@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* RickMortyLudoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RickMortyLudoTests.m */; };
+		00E356F31AD99517003FC87E /* RickMortyDevTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RickMortyDevTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3B74A5407576C47780E49589 /* libPods-RickMortyLudo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA86DF231B811A09E20CACF1 /* libPods-RickMortyLudo.a */; };
+		3B74A5407576C47780E49589 /* libPods-RickMortyDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA86DF231B811A09E20CACF1 /* libPods-RickMortyDev.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		AE2E70C37BF90718FAD5DC4C /* libPods-RickMortyLudo-RickMortyLudoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53729D5334569986D7E12D47 /* libPods-RickMortyLudo-RickMortyLudoTests.a */; };
+		AE2E70C37BF90718FAD5DC4C /* libPods-RickMortyDev-RickMortyDevTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53729D5334569986D7E12D47 /* libPods-RickMortyDev-RickMortyDevTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,27 +22,27 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = RickMortyLudo;
+			remoteInfo = RickMortyDev;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* RickMortyLudoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickMortyLudoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* RickMortyDevTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickMortyDevTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* RickMortyLudoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RickMortyLudoTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* RickMortyLudo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickMortyLudo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RickMortyLudo/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RickMortyLudo/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RickMortyLudo/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RickMortyLudo/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RickMortyLudo/main.m; sourceTree = "<group>"; };
-		431C3E57621DA6BFF25C0F35 /* Pods-RickMortyLudo-RickMortyLudoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickMortyLudo-RickMortyLudoTests.debug.xcconfig"; path = "Target Support Files/Pods-RickMortyLudo-RickMortyLudoTests/Pods-RickMortyLudo-RickMortyLudoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		53729D5334569986D7E12D47 /* libPods-RickMortyLudo-RickMortyLudoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RickMortyLudo-RickMortyLudoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		597C9C2A261BAAB67BE69E24 /* Pods-RickMortyLudo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickMortyLudo.debug.xcconfig"; path = "Target Support Files/Pods-RickMortyLudo/Pods-RickMortyLudo.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RickMortyLudo/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A32EAC1A59974CE584FDB245 /* Pods-RickMortyLudo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickMortyLudo.release.xcconfig"; path = "Target Support Files/Pods-RickMortyLudo/Pods-RickMortyLudo.release.xcconfig"; sourceTree = "<group>"; };
-		CA86DF231B811A09E20CACF1 /* libPods-RickMortyLudo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RickMortyLudo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECDCDD2EA7891D6924BF9CF4 /* Pods-RickMortyLudo-RickMortyLudoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickMortyLudo-RickMortyLudoTests.release.xcconfig"; path = "Target Support Files/Pods-RickMortyLudo-RickMortyLudoTests/Pods-RickMortyLudo-RickMortyLudoTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RickMortyDevTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RickMortyDevTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* RickMortyDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickMortyDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RickMortyDev/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RickMortyDev/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RickMortyDev/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RickMortyDev/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RickMortyDev/main.m; sourceTree = "<group>"; };
+		431C3E57621DA6BFF25C0F35 /* Pods-RickMortyDev-RickMortyDevTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickMortyDev-RickMortyDevTests.debug.xcconfig"; path = "Target Support Files/Pods-RickMortyDev-RickMortyDevTests/Pods-RickMortyDev-RickMortyDevTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53729D5334569986D7E12D47 /* libPods-RickMortyDev-RickMortyDevTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RickMortyDev-RickMortyDevTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		597C9C2A261BAAB67BE69E24 /* Pods-RickMortyDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickMortyDev.debug.xcconfig"; path = "Target Support Files/Pods-RickMortyDev/Pods-RickMortyDev.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RickMortyDev/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A32EAC1A59974CE584FDB245 /* Pods-RickMortyDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickMortyDev.release.xcconfig"; path = "Target Support Files/Pods-RickMortyDev/Pods-RickMortyDev.release.xcconfig"; sourceTree = "<group>"; };
+		CA86DF231B811A09E20CACF1 /* libPods-RickMortyDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RickMortyDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDCDD2EA7891D6924BF9CF4 /* Pods-RickMortyDev-RickMortyDevTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickMortyDev-RickMortyDevTests.release.xcconfig"; path = "Target Support Files/Pods-RickMortyDev-RickMortyDevTests/Pods-RickMortyDev-RickMortyDevTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE2E70C37BF90718FAD5DC4C /* libPods-RickMortyLudo-RickMortyLudoTests.a in Frameworks */,
+				AE2E70C37BF90718FAD5DC4C /* libPods-RickMortyDev-RickMortyDevTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B74A5407576C47780E49589 /* libPods-RickMortyLudo.a in Frameworks */,
+				3B74A5407576C47780E49589 /* libPods-RickMortyDev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* RickMortyLudoTests */ = {
+		00E356EF1AD99517003FC87E /* RickMortyDevTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* RickMortyLudoTests.m */,
+				00E356F21AD99517003FC87E /* RickMortyDevTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = RickMortyLudoTests;
+			path = RickMortyDevTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* RickMortyLudo */ = {
+		13B07FAE1A68108700A75B9A /* RickMortyDev */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = RickMortyLudo;
+			name = RickMortyDev;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				CA86DF231B811A09E20CACF1 /* libPods-RickMortyLudo.a */,
-				53729D5334569986D7E12D47 /* libPods-RickMortyLudo-RickMortyLudoTests.a */,
+				CA86DF231B811A09E20CACF1 /* libPods-RickMortyDev.a */,
+				53729D5334569986D7E12D47 /* libPods-RickMortyDev-RickMortyDevTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,10 +109,10 @@
 		4724F171DE4CDA6D1321D737 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				597C9C2A261BAAB67BE69E24 /* Pods-RickMortyLudo.debug.xcconfig */,
-				A32EAC1A59974CE584FDB245 /* Pods-RickMortyLudo.release.xcconfig */,
-				431C3E57621DA6BFF25C0F35 /* Pods-RickMortyLudo-RickMortyLudoTests.debug.xcconfig */,
-				ECDCDD2EA7891D6924BF9CF4 /* Pods-RickMortyLudo-RickMortyLudoTests.release.xcconfig */,
+				597C9C2A261BAAB67BE69E24 /* Pods-RickMortyDev.debug.xcconfig */,
+				A32EAC1A59974CE584FDB245 /* Pods-RickMortyDev.release.xcconfig */,
+				431C3E57621DA6BFF25C0F35 /* Pods-RickMortyDev-RickMortyDevTests.debug.xcconfig */,
+				ECDCDD2EA7891D6924BF9CF4 /* Pods-RickMortyDev-RickMortyDevTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -128,9 +128,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* RickMortyLudo */,
+				13B07FAE1A68108700A75B9A /* RickMortyDev */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* RickMortyLudoTests */,
+				00E356EF1AD99517003FC87E /* RickMortyDevTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				4724F171DE4CDA6D1321D737 /* Pods */,
@@ -143,8 +143,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* RickMortyLudo.app */,
-				00E356EE1AD99517003FC87E /* RickMortyLudoTests.xctest */,
+				13B07F961A680F5B00A75B9A /* RickMortyDev.app */,
+				00E356EE1AD99517003FC87E /* RickMortyDevTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* RickMortyLudoTests */ = {
+		00E356ED1AD99517003FC87E /* RickMortyDevTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RickMortyLudoTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RickMortyDevTests" */;
 			buildPhases = (
 				647BFF9ECF702640B13D1B4C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = RickMortyLudoTests;
-			productName = RickMortyLudoTests;
-			productReference = 00E356EE1AD99517003FC87E /* RickMortyLudoTests.xctest */;
+			name = RickMortyDevTests;
+			productName = RickMortyDevTests;
+			productReference = 00E356EE1AD99517003FC87E /* RickMortyDevTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* RickMortyLudo */ = {
+		13B07F861A680F5B00A75B9A /* RickMortyDev */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RickMortyLudo" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RickMortyDev" */;
 			buildPhases = (
 				DE4B10D2101998582C47C7D3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = RickMortyLudo;
-			productName = RickMortyLudo;
-			productReference = 13B07F961A680F5B00A75B9A /* RickMortyLudo.app */;
+			name = RickMortyDev;
+			productName = RickMortyDev;
+			productReference = 13B07F961A680F5B00A75B9A /* RickMortyDev.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RickMortyLudo" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RickMortyDev" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* RickMortyLudo */,
-				00E356ED1AD99517003FC87E /* RickMortyLudoTests */,
+				13B07F861A680F5B00A75B9A /* RickMortyDev */,
+				00E356ED1AD99517003FC87E /* RickMortyDevTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,15 +271,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo/Pods-RickMortyLudo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev/Pods-RickMortyDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo/Pods-RickMortyLudo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev/Pods-RickMortyDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo/Pods-RickMortyLudo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev/Pods-RickMortyDev-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		647BFF9ECF702640B13D1B4C /* [CP] Check Pods Manifest.lock */ = {
@@ -297,7 +297,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RickMortyLudo-RickMortyLudoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RickMortyDev-RickMortyDevTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -310,15 +310,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo/Pods-RickMortyLudo-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev/Pods-RickMortyDev-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo/Pods-RickMortyLudo-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev/Pods-RickMortyDev-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo/Pods-RickMortyLudo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev/Pods-RickMortyDev-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A1784AD4BD5F35C85B3AE11C /* [CP] Copy Pods Resources */ = {
@@ -327,15 +327,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo-RickMortyLudoTests/Pods-RickMortyLudo-RickMortyLudoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev-RickMortyDevTests/Pods-RickMortyDev-RickMortyDevTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo-RickMortyLudoTests/Pods-RickMortyLudo-RickMortyLudoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev-RickMortyDevTests/Pods-RickMortyDev-RickMortyDevTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo-RickMortyLudoTests/Pods-RickMortyLudo-RickMortyLudoTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev-RickMortyDevTests/Pods-RickMortyDev-RickMortyDevTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AEDEF9A2AA87260C01D9CB4F /* [CP] Embed Pods Frameworks */ = {
@@ -344,15 +344,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo-RickMortyLudoTests/Pods-RickMortyLudo-RickMortyLudoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev-RickMortyDevTests/Pods-RickMortyDev-RickMortyDevTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo-RickMortyLudoTests/Pods-RickMortyLudo-RickMortyLudoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev-RickMortyDevTests/Pods-RickMortyDev-RickMortyDevTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickMortyLudo-RickMortyLudoTests/Pods-RickMortyLudo-RickMortyLudoTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickMortyDev-RickMortyDevTests/Pods-RickMortyDev-RickMortyDevTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE4B10D2101998582C47C7D3 /* [CP] Check Pods Manifest.lock */ = {
@@ -370,7 +370,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RickMortyLudo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RickMortyDev-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* RickMortyLudoTests.m in Sources */,
+				00E356F31AD99517003FC87E /* RickMortyDevTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* RickMortyLudo */;
+			target = 13B07F861A680F5B00A75B9A /* RickMortyDev */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 431C3E57621DA6BFF25C0F35 /* Pods-RickMortyLudo-RickMortyLudoTests.debug.xcconfig */;
+			baseConfigurationReference = 431C3E57621DA6BFF25C0F35 /* Pods-RickMortyDev-RickMortyDevTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RickMortyLudoTests/Info.plist;
+				INFOPLIST_FILE = RickMortyDevTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickMortyLudo.app/RickMortyLudo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickMortyDev.app/RickMortyDev";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECDCDD2EA7891D6924BF9CF4 /* Pods-RickMortyLudo-RickMortyLudoTests.release.xcconfig */;
+			baseConfigurationReference = ECDCDD2EA7891D6924BF9CF4 /* Pods-RickMortyDev-RickMortyDevTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = RickMortyLudoTests/Info.plist;
+				INFOPLIST_FILE = RickMortyDevTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickMortyLudo.app/RickMortyLudo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickMortyDev.app/RickMortyDev";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 597C9C2A261BAAB67BE69E24 /* Pods-RickMortyLudo.debug.xcconfig */;
+			baseConfigurationReference = 597C9C2A261BAAB67BE69E24 /* Pods-RickMortyDev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = RickMortyLudo/Info.plist;
+				INFOPLIST_FILE = RickMortyDev/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RickMortyLudo;
+				PRODUCT_NAME = RickMortyDev;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A32EAC1A59974CE584FDB245 /* Pods-RickMortyLudo.release.xcconfig */;
+			baseConfigurationReference = A32EAC1A59974CE584FDB245 /* Pods-RickMortyDev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = RickMortyLudo/Info.plist;
+				INFOPLIST_FILE = RickMortyDev/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RickMortyLudo;
+				PRODUCT_NAME = RickMortyDev;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -656,7 +656,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RickMortyLudoTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RickMortyDevTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -665,7 +665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RickMortyLudo" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RickMortyDev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -674,7 +674,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RickMortyLudo" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RickMortyDev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
