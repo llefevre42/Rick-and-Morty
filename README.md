@@ -28,5 +28,6 @@ Réalisation d’une application fan en Swift, Kotlin ou React Native de la sér
 
 ## Appareil tester :
 
+- Real Device Honor 10 (Android 10)
 - Emulateur Iphone 12
 
