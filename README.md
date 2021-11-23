@@ -14,8 +14,8 @@ Réalisation d’une application fan en Swift, Kotlin ou React Native de la sér
 
 ## Environnement disponible :
 
-Development : npm run dev_mode
-Production : npm run prod_mode
+- Development : npm run dev_mode
+- Production : npm run prod_mode
 
 ## Dépendance :
 
