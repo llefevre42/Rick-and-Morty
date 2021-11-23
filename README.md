@@ -2,7 +2,7 @@
 
 Date du debut de projet : 20/11/2021
 
-## sujet :
+## Sujet :
 
 Réalisation d’une application fan en Swift, Kotlin ou React Native de la série rick & morty
 
