@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "dev_mode": "node scripts/set-environment.js development && react-native-rename \"RickMortyDev\" && cd ios && pod install && cd .. ",
+    "prod_mode": "node scripts/set-environment.js production && react-native-rename \"RickMorty\" && cd ios && pod install && cd .. "
   },
   "dependencies": {
     "@apollo/client": "^3.4.17",
