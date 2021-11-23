@@ -1,18 +1,13 @@
-import React, { useState, useRef } from 'react';
-import { Text, View, Image, ImageBackground, Dimensions, FlatList, StyleSheet, SafeAreaView, TouchableHighlight, TouchableOpacity } from 'react-native';
+import React from 'react';
+import { Text, View, Image, Dimensions, SafeAreaView, TouchableOpacity } from 'react-native';
 import GlobalStyle from "../GlobalStyle"
-import {DEV_MODE} from '../env.json'
+import {DEV_MODE} from '../../env.json'
+import {useQuery, gql} from "@apollo/client";
+
 const styles = {
     ...GlobalStyle, ...{
-     
     }
 };
-
-import {
-    useQuery,
-    gql
-} from "@apollo/client";
-
 const FETCH_ALL_PRODUCT = gql`
   query ($id : ID!){
     character(id: $id){
@@ -36,15 +31,11 @@ const FETCH_ALL_PRODUCT = gql`
   }
 `;
 
-
-
 const { height } = Dimensions.get("window");
 const { width } = Dimensions.get("window");
 
-
 export default function Profile({ navigation, route }) {
     const { id } = route.params;
-    console.log("perso id :",perso.id)
 
     const { loading, error, data, fetchMore } = useQuery(FETCH_ALL_PRODUCT, {
         variables: { id: id },

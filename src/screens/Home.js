@@ -1,12 +1,11 @@
 import React, { useState, useRef } from 'react';
-import { Text, View, Image, ImageBackground, Dimensions, FlatList, StyleSheet, SafeAreaView, TouchableHighlight, TouchableOpacity } from 'react-native';
+import { Text, View, Image, Dimensions, FlatList, SafeAreaView, TouchableOpacity } from 'react-native';
 import GlobalStyle from "../GlobalStyle"
 import {useQuery, gql } from "@apollo/client";
-import {DEV_MODE} from '../env.json'
+import {DEV_MODE} from '../../env.json'
 
 const styles = {
   ...GlobalStyle, ...{
- 
   }
 };
 const { height } = Dimensions.get("window");
@@ -16,7 +15,6 @@ const FETCH_ALL_PRODUCT = gql`
 query ($page : Int!, $status : String = "", $gender : String = "") {
   characters(page : $page, filter: { status: $status, gender: $gender }) {
       info {
-        count
         next
       }
       results {
@@ -31,7 +29,6 @@ query ($page : Int!, $status : String = "", $gender : String = "") {
     }
   }
 `;
-
 
 export default function Home({navigation}) {
   const [gender, setGender] = useState("");
