@@ -19,12 +19,15 @@ Réalisation d’une application fan en Swift, Kotlin ou React Native de la sér
 
 ## Dépendance :
 
+- react "17.0.2"
+- react-native "0.66.3"
 - react-native-rename
-- @react-navigation/native
-- @react-navigation/native-stack
-- @apollo/client graphql
-- react-native-screens 
-- react-native-safe-area-context
+- @react-navigation/native "6.0.6"
+- @react-navigation/native-stack "6.2.5"
+- @apollo/client "3.4.17"
+- graphql "15.7.2" 
+- react-native-screens "3.9.0"
+- react-native-safe-area-context "3.3.2"
 
 ## Appareil tester :
 
