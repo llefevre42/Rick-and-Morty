@@ -31,3 +31,14 @@ Réalisation d’une application fan en Swift, Kotlin ou React Native de la sér
 - Real Device Honor 10 (Android 10)
 - Emulateur Iphone 12
 
+## Screen
+
+- Plateforme : Honor 10
+- Date des screens : 24/11/2021
+
+![](Home.jpg)
+
+![](Option.jpg)
+
+![](Profile.jpg)  
+
