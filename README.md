@@ -17,7 +17,7 @@ Réalisation d’une application fan en Swift, Kotlin ou React Native de la sér
 - Development : npm run dev_mode
 - Production : npm run prod_mode
 
-## Dépendance :
+## Dépendances :
 
 - react "17.0.2"
 - react-native "0.66.3"
@@ -29,12 +29,12 @@ Réalisation d’une application fan en Swift, Kotlin ou React Native de la sér
 - react-native-screens "3.9.0"
 - react-native-safe-area-context "3.3.2"
 
-## Appareil tester :
+## Appareils tester :
 
 - Real Device Honor 10 (Android 10)
 - Emulateur Iphone 12
 
-## Screen
+## Screens
 
 - Plateforme : Honor 10
 - Date des screens : 24/11/2021
